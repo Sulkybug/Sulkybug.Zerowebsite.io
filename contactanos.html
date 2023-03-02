@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Andres Angulo" />
+    <meta name="description" content="Zero % Bakery" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Zero % Azúcar Contactanos</title>
+    <link rel="icon" href="img/logoreducido.jpg" type="image/x-icon" />
+    <link href="https://fonts.cdnfonts.com/css/andika-basic" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/9e130bf3cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="index.html"
+          ><img
+            src="img/logopng.png"
+            alt="zero-azucar"
+            id="logo"
+            width="128"
+            height="109"
+        /></a>
+        <button class="toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="index.html" class="nav-menu-link nav-menu-link_active"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a
+              href="index.html#QuienesSomos"
+              class="nav-menu-link nav-menu-link_active"
+              >¿Quienes Somos?</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a
+              href="index.html#Domicilios"
+              class="nav-menu-link nav-menu-link_active"
+              >Menu y Domicilios</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a
+              href="Horario-y-Ubicacion.html"
+              class="nav-menu-link nav-menu-link_active"
+              >Horario y Ubicación</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-menu-link_active" id="salir"
+              >❌</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <section>
+        <br />
+        <h1>Formulario de Contacto, Quejas o Reclamaciones</h1>
+        <br />
+        <p class="bajo-titulo-forma">
+          Déjanos tus datos y pronto te contactaremos.
+        </p>
+        <br /><br /><br />
+        <form
+          class="formulario"
+          action="https://formsubmit.co/feang_c0@hotmail.com"
+          method="post"
+        >
+          <fieldset>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input
+                class="form-control"
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder=" Ingresa tu Nombre"
+                autocomplete="on"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="Email">Correo</label>
+              <input
+                class="form-control"
+                type="text"
+                name="Email"
+                id="Email"
+                placeholder="Email@mail.com"
+                autocomplete="on"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Celular</label>
+              <input
+                class="form-control"
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="000-000-0000"
+                pattern="(\+\d{1,3})?[-.\s]?[0-9]{3}[-.\s]?[0-9]{3}[-.\s]?[0-9]{4}"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="dropdown">Motivo de tu Mensaje</label>
+              <select id="dropdown" class="form-control">
+                <option value="">Seleccione una opción</option>
+                <option value="quejas y reclamos ">Quejas y Reclamos</option>
+                <option value="trabajo">
+                  ¿Quieres trabajar para nosotros?
+                </option>
+                <option value="proovedor">Proveedor de Productos</option>
+                <option value="precios">Cotizacion Productos</option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tu Mensaje</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="80"
+                rows="10"
+                placeholder="Escribe tu mensaje aqui"
+              ></textarea>
+            </div>
+          </fieldset>
+          <br />
+
+          <button type="submit" class="button-24">Enviar</button>
+        </form>
+      </section>
+      <br />
+      <br />
+    </main>
+    <footer>
+      <section class="buttons">
+        <a
+          href="https://www.facebook.com/profile.php?id=100078152221309"
+          target="_blank"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://www.instagram.com/zeroporcientoazucar/"
+          target="_blank"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send?phone=573204320926&text=%F0%9F%91%8B%20Hola%2C%20vengo%20de%20https%3A%2F%2Fzero-azucar.ola.click%2F%3Ffbclid%3DIwAR22905z0lkpp8qPUBraaFeH0k2qYFBKGKqpDE1lMj2Ez_rs5XGFMOvGQo4%20%0ADeseo%20realizar%20el%20siguiente%20pedido%3A%0A"
+          class="fa fa-whatsapp"
+          target="_blank"
+        ></a>
+      </section>
+      <br /><br />
+      <p>
+        <a href="#">Volver al Inicio</a>
+      </p>
+      <br />
+      <p>Copyright &copy; Zero % Azúcar</p>
+      <br />
+      <br />
+    </footer>
+  </body>
+</html>
